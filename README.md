@@ -1,18 +1,17 @@
 ## Unique Character Finder API
 
-** Overview **
 
 This project includes a JavaScript function uniqueChar that finds the index of the first non-repeating character in a given string. Additionally, the function is exposed via a Node.js API endpoint.
 
 ## Features
 
-**Functionality:**
+Functionality:
 
 The uniqueChar function identifies the index of the first unique character in a string.
 
 Returns -1 if no unique character exists.
 
-** API Endpoint:**
+API Endpoint:
 
 POST /first-unique-character
 
@@ -22,7 +21,7 @@ Accepts a JSON payload containing a string and returns the first unique characte
 
 Ensures valid JSON input and returns appropriate error messages for invalid input.
 
-**Console Logging:**
+Console Logging:
 
 Logs endpoint hits with input data and timestamp.
 
@@ -46,11 +45,11 @@ npm start
 
 ## API Usage
 
-** Endpoint **
+Endpoint 
 
 POST /first-unique-character
 
-**Request**
+Request
 Headers:
 ```bash
 Content-Type: application/json
@@ -61,7 +60,7 @@ Body:
   "text_to_process": "your_string_here"
 }
 ```
-** Response **
+ Response 
 Success Response:
 ```bash
 {
